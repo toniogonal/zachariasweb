@@ -10,15 +10,37 @@ body{
 
 header{
     position: fixed;
-    z-index: ;
+    z-index: 100;
     width: 100%;
+    text-align: center;
+    justify-content: center;
 }
 
 header .content{
     display: flex;
     align-items: center;
     padding: 1.8rem;
+    justify-content: center;
 }
+
+header nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 3.5rem;
+}
+
+li{
+    display: inline-block;
+}
+
+nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
 
 #zacharias{
     text-decoration: none;
@@ -38,6 +60,11 @@ header .content{
     color: whitesmoke;
     font-weight: 400;
     font-size: 30px;
+}
+
+#menu-icon:hover{
+    transition: text-decoration-color: rgba(0, 0, 0, 1);
+
 }
 
 #menu-icon:visited{

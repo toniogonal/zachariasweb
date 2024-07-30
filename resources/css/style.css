@@ -3,4 +3,48 @@
 body{
     background-color: black;
     color: whitesmoke;
+    font-family: "Bodoni Moda SC", serif;
+}
+
+/* HEADER */
+
+header{
+    position: fixed;
+    z-index: ;
+    width: 100%;
+}
+
+header .content{
+    display: flex;
+    align-items: center;
+    padding: 1.8rem;
+}
+
+#zacharias{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 50px;
+    padding-left: 30px;
+}
+
+#zacharias:visited{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#menu-icon{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#menu-icon:visited{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.ig-icon{
+    max-height: 30px;
 }

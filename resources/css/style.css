@@ -60,10 +60,12 @@ nav a {
     color: whitesmoke;
     font-weight: 400;
     font-size: 30px;
+    transition: right 2s linear 2s;
 }
 
 #menu-icon:hover{
-
+    font-size: 40px;
+    color: lightgray;
 }
 
 #menu-icon:visited{

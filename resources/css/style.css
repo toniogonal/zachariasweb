@@ -63,8 +63,6 @@ nav a {
 }
 
 #menu-icon:hover{
-    transition: text-decoration-color: rgba(0, 0, 0, 1);
-
 }
 
 #menu-icon:visited{
@@ -74,4 +72,9 @@ nav a {
 
 .ig-icon{
     max-height: 30px;
+}
+
+/*MAIN*/
+.zacharias-portada{
+    width: 100%;
 }

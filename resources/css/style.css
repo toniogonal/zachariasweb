@@ -78,3 +78,22 @@ nav a {
 .zacharias-portada{
     width: 100%;
 }
+
+/*NEWS*/
+
+
+/*FOOTER*/
+footer {
+    background-color: #9b9b9b;
+    padding: 1.5rem 2rem;
+  }
+  
+  footer .content {
+    color: whitesmoke;
+    display: flex;
+    font-size: .75rem;
+  }
+  
+  footer .copyright{
+    flex-grow: 1;
+  }

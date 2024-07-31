@@ -67,11 +67,11 @@ nav #menu-icon{
     color: whitesmoke;
     font-weight: 400;
     font-size: 30px;
-    transition: color 200ms 20ms ease-in-out;
+    transition: color 200ms 200ms ease;
 }
 
 nav #menu-icon:hover, nav #menu-icon:active{
-    color: lightslategray;
+color: #9b9b9b;
 }
 
 #menu-icon:visited{

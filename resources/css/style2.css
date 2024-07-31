@@ -1,0 +1,84 @@
+/*UNIVERSAL*/
+
+body{
+    background-color: whitesmoke;
+    color: black;
+    font-family: "Marcellus SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* HEADER */
+
+header{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+header .content{
+    display: flex;
+    align-items: center;
+    padding: 1.8rem;
+    justify-content: center;
+}
+
+header nav ul{
+    display: flex;
+}
+
+nav li{
+    padding-left: 3.5rem;
+}
+
+li{
+    display: inline-block;
+}
+
+nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+
+.zacharias{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 50px;
+    padding-left: 30px;
+    transition: color 200ms 20ms ease-in-out;
+}
+
+.zacharias:hover, .zacharias:active{
+    color: grey;
+}
+
+.zacharias:visited{
+    color: black;
+    text-decoration: none;
+}
+
+nav #menu-icon{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 30px;
+    transition: color 500ms 50ms ease-in-out;
+}
+
+nav #menu-icon:hover, nav #menu-icon:active{
+    color: grey;
+}
+
+#menu-icon:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.ig-icon{
+    max-height: 30px;
+}

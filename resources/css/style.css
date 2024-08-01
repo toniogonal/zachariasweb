@@ -1,13 +1,17 @@
 /*Universal Styles*/
 
-body{
-    background-color: black;
+*{
+    margin: 0;
+    padding: 0;
     color: whitesmoke;
     font-family: "Marcellus SC", serif;
     font-weight: 400;
     font-style: normal;
 }
 
+body{
+    background-color: black;
+}
 /* HEADER */
 
 header{
